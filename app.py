@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'  # Replace with a real secret key
 
 DATABASE = 'team_compatibility.db'
-GEMINI_API_KEY = 'AIzaSyDJxxtfpzHXFZHUO6U2TKw9jmus-0YZu64'
+GEMINI_API_KEY ='yourSecretKey'
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'xlsx', 'xls'}
 
